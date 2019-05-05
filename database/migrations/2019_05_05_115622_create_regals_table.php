@@ -17,7 +17,8 @@ class CreateRegalsTable extends Migration
             $table->Increments('id');
             $table->enum('Etage', ['1','2','3']);
             $table->enum('Platz',['1','2','3','4','5','6','7','8','9','10']);
-			$table->Integer('ProduktID');
+			$table->Integer('ProduktID')->unsigned();
+            $table->foreign('ProduktID')->references('id')->on('produkts');
             
 
         });

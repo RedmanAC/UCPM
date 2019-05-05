@@ -20,7 +20,8 @@ class ProduktController extends Controller
     public function store(Request $request)
     {
 
-        return Response()->json(Produkt::create($request->all()),200);
+        return "hello produkt";
+      //  return Response()->json(Produkt::create($request->all()),200);
     }
 
     public function update(Request $request, $id)
