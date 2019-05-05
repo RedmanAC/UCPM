@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//KLAPPT NICHT ICH VERFLUCHE EUCH ALLE hahaha
-Route::get('/produkt', function(){
-       return view('welcome');
+
+Route::get('/produkt/', function(){
+    return "hello world";
 });

@@ -14,7 +14,7 @@ class CreateProduktsTable extends Migration
     public function up()
     {
         Schema::create('produkts', function (Blueprint $table) {
-            $table->Increments('id')->AutoIncrement();
+            $table->Increments('id');
             $table->string('Name');
             $table->enum('Größe', ['klein','medium','groß']);
         });

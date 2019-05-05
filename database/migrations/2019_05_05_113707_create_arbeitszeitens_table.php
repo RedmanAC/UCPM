@@ -15,12 +15,11 @@ class CreateArbeitszeitensTable extends Migration
     public function up()
     {
         Schema::create('arbeitszeitens', function (Blueprint $table) {
-            $table->Increments('id')->AutoIncrement();
+            $table->Increments('id');
             $table->timestamp('von')->default(Carbon::now());
             $table->timestamp('bis')->default(Carbon::now());
             $table->timestamp('pause')->default(Carbon::now());
-            $table->string('MitarbeiterNr');
-			$table->foreign('MitarbeiterNr')->references('id')->on('mitarbeiters');
+            $table->integer('MitarbeiterNr');
         });
     }
 

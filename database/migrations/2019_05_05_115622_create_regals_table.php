@@ -14,11 +14,11 @@ class CreateRegalsTable extends Migration
     public function up()
     {
         Schema::create('regals', function (Blueprint $table) {
-            $table->Increments('id')->AutoIncrement();
+            $table->Increments('id');
             $table->enum('Etage', ['1','2','3']);
             $table->enum('Platz',['1','2','3','4','5','6','7','8','9','10']);
-			$table->unsignedInteger('ProduktID');
-            $table->foreign('ProduktID')->references('id')->on('pr');
+			$table->Integer('ProduktID');
+            
 
         });
     }
