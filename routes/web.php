@@ -15,7 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/', 'ProduktController@index');
+Route::get('/produkt/{id}/', 'ProduktController@show');
+Route::post('/produkt/','ProduktController@store');
+Route::update('/produkt/{id}/','ProduktController@update');
+Route::delete('/produkt/{id}/','ProduktController@delete');
 
-Route::get('/produkt/', function(){
-    return "hello world";
-});
+Route::get('/arbeitszeiten/','ArbeitszeitenController@show');
+Route::post('/arbeitszeiten/','ArbeitszeitenController@store');
