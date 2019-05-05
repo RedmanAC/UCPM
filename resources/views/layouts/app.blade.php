@@ -38,7 +38,7 @@
 
                         @else
                          <li class="nav-item">
-                                    <a class="nav-link" href="/home">Home</a>
+                                    <a class="nav-link" href="/home">Homee</a>
                          </li>
                         @endguest
 
