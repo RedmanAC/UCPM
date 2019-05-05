@@ -19,7 +19,8 @@ class CreateArbeitszeitensTable extends Migration
             $table->timestamp('von')->default(Carbon::now());
             $table->timestamp('bis')->default(Carbon::now());
             $table->timestamp('pause')->default(Carbon::now());
-            $table->integer('MitarbeiterNr');
+            $table->integer('MitarbeiterNr')->unsigned();
+            $table->foreign('MitarbeiterNr')->references('id')->on('mitarbeiters');
         });
     }
 

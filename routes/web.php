@@ -18,7 +18,7 @@ Route::get('/', function () {
 Route::get('/', 'ProduktController@index');
 Route::get('/produkt/{id}/', 'ProduktController@show');
 Route::post('/produkt/','ProduktController@store');
-Route::update('/produkt/{id}/','ProduktController@update');
+Route::put('/produkt/{id}/','ProduktController@update');
 Route::delete('/produkt/{id}/','ProduktController@delete');
 
 Route::get('/arbeitszeiten/','ArbeitszeitenController@show');

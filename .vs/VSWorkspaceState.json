@@ -2,8 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\app",
+    "\\app\\Http",
+    "\\app\\Http\\Controllers",
     "\\database",
-    "\\database\\migrations"
+    "\\database\\migrations",
+    "\\routes",
+    "\\storage"
   ],
+  "SelectedNode": "\\routes\\web.php",
   "PreviewInSolutionExplorer": false
 }
