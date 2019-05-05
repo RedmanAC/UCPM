@@ -1,0 +1,19 @@
+Datenbank Architektur
+
+User -> Mitarbeiter/Chef -> Rolle: 1 Mitarbeiter / 2 Vorstand / 3 Chef
+
+Schichten -> Früh/Mittag/Nacht Schicht
+
+Pausen
+
+Produkte
+
+Regale
+
+
+Anforderungen: 
+
+1.  Übersicht Feuerlöscher
+2.  Übersicht Lageplan inkl. Einführung
+3.	Effizienter Lageplan
+4.  Zeiterfassungssystem Ankunft/Pause/Abfahrt

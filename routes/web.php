@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/arbeitszeiten', 'WorkplanController@index');
+
+Route::get('/lager', 'WarehouseController@index');
+
+Route::post('/arbeitsplan', 'ActivityController@store');

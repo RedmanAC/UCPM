@@ -25,3 +25,14 @@ $factory->define(User::class, function (Faker $faker) {
         'remember_token' => Str::random(10),
     ];
 });
+
+$factory->define(App\Activity::class, function (Faker $faker) {
+
+	return [
+
+		'user_id' => factory('App\User')->create(),
+		'activity' => 'Arbeitsbeginn',
+
+	];
+
+});
