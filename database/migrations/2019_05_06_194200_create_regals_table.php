@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSchichtensTable extends Migration
+class CreateRegalsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,10 @@ class CreateSchichtensTable extends Migration
      */
     public function up()
     {
-        Schema::create('schichtens', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('name');
-            $table->timestamp('Arbeitsbeginn')->nullable();
-            $table->timestamp('Arbeitsschluss')->nullable();
+        Schema::create('regals', function (Blueprint $table) {
+            $table->BigIncrements('id');
+            $table->enum('Etage', ['1','2','3']);
+            $table->enum('Platz',['1','2','3','4','5','6','7','8','9','10']);
             $table->timestamps();
         });
     }
@@ -29,6 +28,6 @@ class CreateSchichtensTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('schichtens');
+        Schema::dropIfExists('regals');
     }
 }

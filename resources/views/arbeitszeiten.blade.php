@@ -1,0 +1,78 @@
+@extends('layouts.app')
+
+@section('content')
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-8">
+                <h1>Alle Arbeitszeiten/ Aktivitäten</h1>
+            </div>
+        </div>
+
+
+        <div class="row mt-3">
+            <div class="col-md-8">
+                <table class="table table-hover table-dark">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Mitarbeiter Nummer</th>
+                        <th scope="col">Aktivität</th>
+                        <th scope="col">Uhrzeit</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @if($activities != null)
+                        @foreach($activities as $activity)
+
+                            <tr>
+                                <th scope="row">
+
+                                    <div style="height:35px;width:35px;background:url('https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');border-radius:50%;margin:0;background-size:cover;"></div>
+
+                                </th>
+                                <th scope="row"><a
+                                            href="/arbeitszeiten/{{$activity->user->id}}">{{$activity->user->name}}</a>
+                                </th>
+                                <th scope="row">{{$activity->user->id}}</th>
+                                <td>{{$activity->activity}}</td>
+                                <td>{{$activity->created_at->format('D-m-y-H:i')}}</td>
+                            </tr>
+
+                        @endforeach
+                        {{ $activities->links() }}
+                    @else
+                        No Activities at the moment
+                    @endif
+
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-md-1" style="border-right:1px solid #cccccc">
+
+            </div>
+
+            <div class="col-md-3 d-flex flex-column justify-content-left">
+
+                @foreach($users as $user)
+
+                    <a href="/arbeitszeiten/{{$user->id}}">
+                        <div class="d-flex flex-column align-items-center mt-3">
+                            <div style="height:60px;width:60px;background:url('https://placeimg.com/500/500/people');border-radius:50%;margin:0;background-size:cover;"></div>
+                            <h6 class="mt-1"><a href="/arbeitszeiten/{{$user->id}}"> {{$user->name}}</a></h6>
+                        </div>
+                    </a>
+
+                @endforeach
+
+                {{ $users->links() }}
+
+            </div>
+        </div>
+
+
+    </div>
+
+@endsection
