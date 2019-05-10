@@ -11,7 +11,7 @@
             @endif
             
             <div class="d-flex align-items-center justify-content-between">
-            <h1>Willkommen {{$user->name}} (Admin)</h1>
+            <h1>Willkommen {{$user->name}} </h1>
 
             <div class="d-flex flex-column align-items-center ml-3">
                 <div style="height:60px;width:60px;background:url('https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');border-radius:50%;margin:0;background-size:cover;"></div>
@@ -27,8 +27,9 @@
 
         <div class="col-md-8">
             <div class="row">
+                @if($user->AUGMToken == 1)
                     <div class="col-md-5 m-1">
-                        
+
                         <form method="POST" action="/arbeitsplan">
                             <div class="form-group row flex-column">
                                 <label for="staticEmail" class="col-form-label">Arbeitstag starten?</label>
@@ -50,6 +51,9 @@
                         </form>
 
                     </div>
+                    @else
+                   <h1> Erst Sicherheitstest bestehen!</h1>
+                @endif
 
             </div>
             <div class="row mt-3">
