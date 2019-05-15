@@ -360,7 +360,11 @@ class ComposerStaticInit454a257af920d9a6c7c7c55eed7ba1e5
     );
 
     public static $classMap = array (
+<<<<<<< HEAD
         'App\\Arbeitszeiten' => __DIR__ . '/../..' . '/app/Arbeitszeiten.php',
+=======
+        'App\\Activity' => __DIR__ . '/../..' . '/app/Activity.php',
+>>>>>>> version1.1
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\ArbeitszeitenController' => __DIR__ . '/../..' . '/app/Http/Controllers/ArbeitszeitenController.php',
@@ -370,7 +374,12 @@ class ComposerStaticInit454a257af920d9a6c7c7c55eed7ba1e5
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+<<<<<<< HEAD
         'App\\Http\\Controllers\\ProduktController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProduktController.php',
+=======
+        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
+        'App\\Http\\Controllers\\WorkplanController' => __DIR__ . '/../..' . '/app/Http/Controllers/WorkplanController.php',
+>>>>>>> version1.1
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',
@@ -386,7 +395,11 @@ class ComposerStaticInit454a257af920d9a6c7c7c55eed7ba1e5
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+<<<<<<< HEAD
         'App\\Regal' => __DIR__ . '/../..' . '/app/Regal.php',
+=======
+        'App\\Schichten' => __DIR__ . '/../..' . '/app/Schichten.php',
+>>>>>>> version1.1
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'BeyondCode\\DumpServer\\DumpServerCommand' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerCommand.php',
         'BeyondCode\\DumpServer\\DumpServerServiceProvider' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerServiceProvider.php',
