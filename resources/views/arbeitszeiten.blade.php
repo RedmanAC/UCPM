@@ -40,7 +40,7 @@
                             </tr>
 
                         @endforeach
-                        {{ $activities->links() }}
+                      
                     @else
                         No Activities at the moment
                     @endif
@@ -56,18 +56,8 @@
 
             <div class="col-md-3 d-flex flex-column justify-content-left">
 
-                @foreach($users as $user)
-
-                    <a href="/arbeitszeiten/{{$user->id}}">
-                        <div class="d-flex flex-column align-items-center mt-3">
-                            <div style="height:60px;width:60px;background:url('https://placeimg.com/500/500/people');border-radius:50%;margin:0;background-size:cover;"></div>
-                            <h6 class="mt-1"><a href="/arbeitszeiten/{{$user->id}}"> {{$user->name}}</a></h6>
-                        </div>
-                    </a>
-
-                @endforeach
-
-                {{ $users->links() }}
+              
+                
 
             </div>
         </div>

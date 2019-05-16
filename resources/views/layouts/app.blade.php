@@ -57,6 +57,10 @@
                                 </li>
                             @endif
                         @else
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/sicherheit">Sicherheit</a>
+                        </li>
                             <li class="nav-item">
                                     <a class="nav-link" href="#">Produkte</a>
                             </li>

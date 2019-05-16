@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit454a257af920d9a6c7c7c55eed7ba1e5
+class ComposerStaticInit34219c2e173ef4ade7d6a914243670d9
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -360,26 +360,19 @@ class ComposerStaticInit454a257af920d9a6c7c7c55eed7ba1e5
     );
 
     public static $classMap = array (
-<<<<<<< HEAD
-        'App\\Arbeitszeiten' => __DIR__ . '/../..' . '/app/Arbeitszeiten.php',
-=======
         'App\\Activity' => __DIR__ . '/../..' . '/app/Activity.php',
->>>>>>> version1.1
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
-        'App\\Http\\Controllers\\ArbeitszeitenController' => __DIR__ . '/../..' . '/app/Http/Controllers/ArbeitszeitenController.php',
+        'App\\Http\\Controllers\\ActivityController' => __DIR__ . '/../..' . '/app/Http/Controllers/ActivityController.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
-<<<<<<< HEAD
-        'App\\Http\\Controllers\\ProduktController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProduktController.php',
-=======
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
+        'App\\Http\\Controllers\\WarehouseController' => __DIR__ . '/../..' . '/app/Http/Controllers/WarehouseController.php',
         'App\\Http\\Controllers\\WorkplanController' => __DIR__ . '/../..' . '/app/Http/Controllers/WorkplanController.php',
->>>>>>> version1.1
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',
@@ -388,18 +381,11 @@ class ComposerStaticInit454a257af920d9a6c7c7c55eed7ba1e5
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
-        'App\\Mitarbeiter' => __DIR__ . '/../..' . '/app/Mitarbeiter.php',
-        'App\\Produkt' => __DIR__ . '/../..' . '/app/Produkt.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
-<<<<<<< HEAD
-        'App\\Regal' => __DIR__ . '/../..' . '/app/Regal.php',
-=======
-        'App\\Schichten' => __DIR__ . '/../..' . '/app/Schichten.php',
->>>>>>> version1.1
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'BeyondCode\\DumpServer\\DumpServerCommand' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerCommand.php',
         'BeyondCode\\DumpServer\\DumpServerServiceProvider' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerServiceProvider.php',
@@ -2809,7 +2795,6 @@ class ComposerStaticInit454a257af920d9a6c7c7c55eed7ba1e5
         'PhpParser\\Parser\\Tokens' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Parser/Tokens.php',
         'PhpParser\\PrettyPrinterAbstract' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php',
         'PhpParser\\PrettyPrinter\\Standard' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php',
-        'ProduktSeeder' => __DIR__ . '/../..' . '/database/seeds/ProduktSeeder.php',
         'Prophecy\\Argument' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Argument.php',
         'Prophecy\\Argument\\ArgumentsWildcard' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Argument/ArgumentsWildcard.php',
         'Prophecy\\Argument\\Token\\AnyValueToken' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Argument/Token/AnyValueToken.php',
@@ -3803,7 +3788,7 @@ class ComposerStaticInit454a257af920d9a6c7c7c55eed7ba1e5
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
         'Symfony\\Polyfill\\Php72\\Php72' => __DIR__ . '/..' . '/symfony/polyfill-php72/Php72.php',
         'Tests\\CreatesApplication' => __DIR__ . '/../..' . '/tests/CreatesApplication.php',
-        'Tests\\Feature\\ExampleTest' => __DIR__ . '/../..' . '/tests/Feature/ExampleTest.php',
+        'Tests\\Feature\\WorkplanTest' => __DIR__ . '/../..' . '/tests/Feature/WorkPlanTest.php',
         'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
         'Tests\\Unit\\ExampleTest' => __DIR__ . '/../..' . '/tests/Unit/ExampleTest.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
@@ -3914,10 +3899,10 @@ class ComposerStaticInit454a257af920d9a6c7c7c55eed7ba1e5
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit454a257af920d9a6c7c7c55eed7ba1e5::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit454a257af920d9a6c7c7c55eed7ba1e5::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit454a257af920d9a6c7c7c55eed7ba1e5::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit454a257af920d9a6c7c7c55eed7ba1e5::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit34219c2e173ef4ade7d6a914243670d9::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit34219c2e173ef4ade7d6a914243670d9::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit34219c2e173ef4ade7d6a914243670d9::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit34219c2e173ef4ade7d6a914243670d9::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -13,4 +13,9 @@ class WarehouseController extends Controller
 
 	}
 
+    public function security(){
+        
+        return view('security');
+    }
+
 }
