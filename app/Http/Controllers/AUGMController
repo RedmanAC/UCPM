@@ -9,7 +9,7 @@ class AUGMController extends Controller
 
     public function index(){
 
-        return view('lager');
+        return view('AUGM');
 
     }
 

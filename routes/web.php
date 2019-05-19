@@ -25,6 +25,13 @@ Route::get('/lager', 'WarehouseController@index');
 
 Route::get('/sicherheit', 'WarehouseController@security');
 
+Route::get('/regale', 'RegalController@index');
+
+Route::get('/overview', 'AdminController@index');
+
+Route::post('/AUGM', 'AUGMController@index');
+
 Route::post('/arbeitsplan', 'ActivityController@store');
 
+Route::post('/AUGMverify', 'AUGMController@store');
 

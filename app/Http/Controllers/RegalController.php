@@ -1,10 +1,11 @@
 <?php
 
-namespace WayneSchlegelInc.\Http\Controllers;
+//namespace WayneSchlegelInc.\Http\Controllers;
 
-use WayneSchlegelInc.\Regal;
+//use WayneSchlegelInc.\Regal;
+namespace App\Http\Controllers;
 use Illuminate\Http\Request;
-use WayneSchlegelInc.\Http\Controllers\Controller;
+//use WayneSchlegelInc.\Http\Controllers\Controller;
 
 class RegalController extends Controller
 {
@@ -15,7 +16,7 @@ class RegalController extends Controller
      */
     public function index()
     {
-        //
+        return view('regale');
     }
 
     /**
