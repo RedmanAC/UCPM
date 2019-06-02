@@ -29,7 +29,7 @@ Route::get('/regale', 'RegalController@index');
 
 Route::get('/overview', 'AdminController@index');
 
-Route::post('/AUGM', 'AUGMController@index');
+Route::get('/AUGM', 'AUGMController@index');
 
 Route::post('/arbeitsplan', 'ActivityController@store');
 

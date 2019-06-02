@@ -63,15 +63,14 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/sicherheit">Sicherheit</a>
                         </li>
-                            <li class="nav-item">
-                                    <a class="nav-link" href="#">Produkte</a>
-                            </li>
-                             <li class="nav-item">
-                                    <a class="nav-link" href="#">Feuerlöscher</a>
-                            </li>
+
 
                             <li class="nav-item">
                                 <a class="nav-link" href="/lager">Lageplan</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="/AUGM">AUGM</a>
                             </li>
 
                             <li class="nav-item">
