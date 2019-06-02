@@ -31,6 +31,8 @@ Route::get('/overview', 'AdminController@index');
 
 Route::get('/AUGM', 'AUGMController@index');
 
+Route::get('/Safety', 'SafetyController@index');
+
 Route::post('/arbeitsplan', 'ActivityController@store');
 
 Route::post('/AUGMverify', 'AUGMController@store');
